@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+body,
+html {
+    height: 100%
+}
+
+#particles-js canvas {
+    display: block;
+    /* vertical-align: bottom; */
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    background-color: #faf4f2;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+
+.glass-button {
+    display: inline-block;
+    padding: 15px 15px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.281);
+    border: #2c2e43;
+}
+
+.glass-div {
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.281);
+    border: #2c2e43;
+}
+
+div.links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+* {
+    color: #000000;
+    font-family: Raleway, 'sans-serif';
+}
+
+:root {
+    font-family: Raleway, 'sans-serif';
+}
+
+.numbers {
+    font-family: sans-serif;
+}
+
+
+div.links a:hover {
+text-decoration: underline;
+color: black;
+}
+
+/* button a:hover::before {
+    
+} */
